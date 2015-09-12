@@ -645,7 +645,7 @@
     }
     ```
 
-  - If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your
+  - If you're using multi-line blocks with `if` and `else`, put `else` a new line after your
     `if` block's closing brace.
 
     ```javascript
@@ -653,8 +653,7 @@
     if (test) {
       thing1();
       thing2();
-    }
-    else {
+    } else {
       thing3();
     }
 
@@ -662,7 +661,8 @@
     if (test) {
       thing1();
       thing2();
-    } else {
+    } 
+    else {
       thing3();
     }
     ```
